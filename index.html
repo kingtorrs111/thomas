@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <meta charset="UTF-8">
+      <title>SMCC-CCIS Week 2025 - Campus Event Showcase</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: white;
+        }
+
+
+        header {
+            background: green;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: green;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 25px;
+            margin-top: 25px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 450px;
+            display: block;
+            margin: auto;
+        }
+
+
+        #faq-section p {
+            margin: 8px 0;
+        }
+
+        button {
+            background: lightgreen;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        pre {
+            background: #072a1f;
+            color: #bbf2d3;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <header>
+        <h1>SMCC-CCIS Week 2025 - Campus Event Showcase </h1>
+        <p>Celebrating innovation, technology, and collaboration across the campus.</p>
+    </header>
+
+
+    <nav>
+        <a href="overview">Overview</a>
+        <a href="schedule">Schedule</a>
+        <a href="location">Location</a>
+        <a href="faq">FAQ</a>
+        <a href="tech">Tech Demo</a>
+    </nav>
+
+    <div class="container">
+
+
+        <div id="overview" class="box">
+            <h2>Event Overview </h2>
+            <p>
+                <strong>SMCC-CCIS Week 2025</strong> is a yearly campus event that showcases student initiatives,
+        industry discussions and practical workshops on cybersecurity, software development,
+        artificial intelligence, among other things.
+            </p>
+            <p>
+                Join us for a week of learning, networking, and fun as we celebrate innovation!
+            </p>
+
+            <img  src="https://michinowa.github.io/HTML-SMCC/images/ccis.png 
+
+                 alt="CCIS Logo Placeholder">
+        </div>
+
+
+        <div class="box">
+            <h2>Event Info & Contacts</h2>
+            <p><strong>Organizer:</strong> College of Computing & Information Sciences</p>
+            <p><strong>Email:</strong> ccisweek@myschool.edu</p>
+
+            <p><strong>Event highlights:</strong></p>
+            <ul>
+                <li>Live coding sessions</li>
+                <li>Industry speakers</li>
+                <li>Project exhibits</li>
+            </ul>
+
+            <h3>Character Encoding</h3>
+            <p>This page uses UTF-8 encoding, defined as:</p>
+            <pre>&lt;meta charset="UTF-8"&gt;</pre>
+        </div>
+
+        <div id="schedule" class="box">
+            <h2>Event Schedule ✓</h2>
+            <p>Here is a simplified view of the main events:</p>
+
+            <ul>
+                <li>Day 1 - Opening Program & Keynote Talks</li>
+                <li>Day 2 - Coding Hackathon </li>
+                <li>Day 3 - Robotics & IoT Exhibition </li>
+                <li>Day 4 -Cybersecurity Awareness Sessions </li>
+                <li>Day 5 - Project Showcase & Awarding Ceremony </li>
+            </ul>
+        </div>
+
+
+        <div id="location" class="box">
+            <h2>Event Location & Map</h2>
+            <p>
+                All events will be held at the <strong>SMCC Main Campus - IT Building</strong>.
+            </p>
+
+
+            <iframe 
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8247645868755!2d125.33782747589883!3d8.988267091071513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301ca2f04581cbb%3A0xe4e2656c7835d5f2!2sSaint%20Michael%20College%20of%20Caraga!5e0!3m2!1sen!2sph!4v1764386227426!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                width="100%" height="350" style="border:0;" allowfullscreen loading="lazy"></iframe>
+        </div>
+
+        <div id="faq" class="box">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+
+            <button onclick="toggleFAQ()">Toggle FAQ Visibility</button>
+
+            <div id="faq-section">
+                <p><strong>1. Is the event open to all students?</strong><br>
+                Yes, the event is open to all departments and year levels.</p>
+
+                <p><strong>2. Do I need to register?</strong><br>
+                Registration is required for competitions and workshops.</p>
+
+                <p><strong>3. Is there a registration fee?</strong><br>
+                No, all SMCC-CCIS Week activities are free of charge.</p>
+            </div>
+        </div>
+
+
+ 
+    <script>
+        function toggleFAQ() {
+            const faq = document.getElementById("faq-section");
+            faq.style.display = faq.style.display === "none" ? "block" : "none";
+        }
+    </script>
+    
+   <div class="container">
+    <h1>Tech Demo & Developer Notes</h1>
+
+    <h2>Sample Command (Using &lt;pre&gt; and &lt;code&gt;)</h2>
+
+    <pre><code>// Clone the SMCC-CCIS week repo
+    git clone https://github.com/example/ccisweek2025.git
+
+    // Install dependencies
+    npm install
+
+    // Start development server
+    npm run dev
+    </code></pre>
+
+    <p>To save your changes, press <b>Ctrl + S</b>. Example system output using &lt;samp&gt;: <samp>Build successful. No errors found.</samp></p>
+
+    <h2>Registration URL (URL Encoded)</h2>
+
+    <p>Example registration URL with encoded spaces and symbols:</p>
+
+    <pre><code>https://myschool.edu/events/register?event=IT%20Week%202025&section=A
+    </code></pre>
+
+    <p>Here, <b>%20</b> represents a space character in the URL.</p>
+
+    <h2>HTML vs XHTML Example</h2>
+
+    <p>Compare the following snippets:</p>
+
+    <pre><code>&lt; HTML-style (not strictly self-closed) &gt;
+&lt;br&gt;
+&lt;img src="images/logo.png" alt="Event Logo"&gt;
+
+&lt; XHTML-style (self-closed, lowercase, quoted attributes) &gt;
+&lt;br /&gt;
+&lt;img src="images/logo.png" alt="Event Logo" /&gt;
+    </code></pre>
+
+    <p>XHTML requires properly closed tags, lowercase element names, and quoted attributes.</p>
+</div>
+
+<div class="footer">
+    SMCC-CCIS Week 2025 - Campus Event Showcase | Made with HTML, CSS &amp; JavaScript 
+
+</div>
+    
+</body>
+</html
